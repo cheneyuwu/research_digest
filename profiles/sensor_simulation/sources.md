@@ -71,6 +71,9 @@ Foretellix         | https://www.foretellix.com/blog                            
 Autobrains         | https://www.autobrains.ai/news                                 | NONE                                                  | Agentic AI L4, VinFast partnership, NVIDIA DRIVE Hyperion, unsupervised perception
 Avride             | https://avride.ai/news                                         | NONE                                                  | 200+ Ioniq 5 robotaxi fleet, Uber Dallas/Austin, rapid Texas scaling
 Verne              | https://www.verne.co/news                                      | NONE                                                  | Robotaxi operator, Europe's first commercial service (Zagreb), Pony.ai tech
+Decart             | https://www.decart.ai                                         | NONE                                                  | Oasis real-time photorealistic driving world model, day-one API, neural-sim competitor to Cosmos/GAIA; $300M raise (~$4B val, 2026)
+Odyssey            | https://odyssey.ml                                           | NONE                                                  | World-sim foundation-model lab (Oliver Cameron, ex-Cruise/Voyage); $310M Series B 06-17 (~$1.45B val); AWS Trainium compute (non-NVIDIA bet); neural-sim / world models
+WeRide             | https://www.weride.ai/newsroom                                | NONE                                                  | GENESIS generative-AI world-model / sensor-sim platform for AV dev (ATTI Simulation Innovation Award 06-24, AI Breakthrough "Gen-AI Platform of the Year" 06-25); L4 robotaxi, global RHD expansion (Geely Farizon / Kwoon Chung)
 
 ---
 
@@ -106,7 +109,7 @@ Awesome-NeRF                        | https://github.com/awesome-NeRF/awesome-Ne
 > Flag new repos that match the profile's topics (sensor sim, 3DGS, world models, AD, etc.).
 > Format: `Name | GitHub URL | What to look for`
 
-NVIDIA Research (nv-tlabs) | https://github.com/nv-tlabs                | Highest-signal NVIDIA org — Fidler group, scene gen, neural sim, 3DGS, OmniDreams, asset generation
+NVIDIA Spatial Intelligence Lab (nv-tlabs) | https://github.com/nv-tlabs                | Highest-signal NVIDIA org — SIL / Fidler group (org rebranded "NVIDIA Spatial Intelligence Lab"), scene gen, neural sim, 3DGS, OmniDreams, asset generation
 NVlabs                  | https://github.com/NVlabs                    | AlpaSim (AV sim), rcm (world model diffusion), nurec tools, trajdata — high-signal research code
 NVIDIA (main)           | https://github.com/NVIDIA                    | Cosmos, flashdreams, nurec-skills, asset-harvester, DRIVE — noisy, check selectively
 OpenDriveLab            | https://github.com/OpenDriveLab              | E2E driving, occupancy, world models, benchmarks, SimScale
@@ -147,9 +150,12 @@ Hugging Face Papers | https://huggingface.co/papers     | autonomous driving sce
 > Format: `Conference | URL | Notes`
 
 CVPR 2026              | https://cvpr.thecvf.com/Conferences/2026        | Jun 3–7 Denver; workshops Jun 3-4, main Jun 5-7
+SIGGRAPH 2026          | https://s2026.siggraph.org                      | Jul 19–23 Los Angeles; NVIDIA "Neural Rendering, World Models & Simulation" keynote Jul 20 (Ashton/M-Y Liu/E. Liu) — on-profile
 CVPR Open Access       | https://openaccess.thecvf.com                   | All prior CVPR papers, free
 NeurIPS 2026           | https://neurips.cc                              | Dec 2026; monitor OpenReview submissions
 ICRA 2026              | https://2026.ieee-icra.org                      | Jun 1–5 Vienna; robotics + AV
+IEEE IV 2026           | https://ieee-iv.org/2026/                       | 37th Intelligent Vehicles Symposium; Jun 22–25 Detroit MI; Autoware + industry sim workshops
+AV Tech Expo Europe    | https://autonomousvehicletechnologyexpo.com/    | Stuttgart Germany; Jun 23–25 2026; ADAS + AV tech + sim/validation vendors (annual industry expo)
 OpenReview             | https://openreview.net                          | NeurIPS/ICLR submissions and reviews
 WAD Workshop (CVPR)    | https://cvpr2026.wad.vision/                    | Workshop on Autonomous Driving
 SAD Workshop (CVPR)    | https://agents4ad.github.io/                    | Simulation for Autonomous Driving workshop
@@ -185,6 +191,7 @@ Rajeev Yasarla      | Qualcomm AI Research         | NONE                       
 Yuzhou Huang        | (Chinese univ/industry — verify) | NONE                                               | https://arxiv.org/search/?searchtype=author&query=Yuzhou+Huang&size=50        | Unified streaming VLA for AD, first to beat expert humans on WOD-E2E (lead author 2605.12624 MindVLA-U1) — common name, post-fetch affiliation filter required
 Naama Pearl         | Tübingen (Geiger group) / Meta | NONE                                                 | https://arxiv.org/search/?searchtype=author&query=Naama+Pearl&size=50         | Learned 3DGS optimization, meta-learning for scene reconstruction (lead author 2605.15760 Learn2Splat)
 Andrea Bajcsy       | CMU (Robotics Institute)     | NONE                                                   | https://arxiv.org/search/?searchtype=author&query=Andrea+Bajcsy&size=50       | Robust policy evaluation, steering video world models toward plausible failures, safe autonomy (senior author 2606.00267 StressDream)
+Or Perel            | NVIDIA / U. Toronto / Vector | NONE                                                   | https://arxiv.org/search/?searchtype=author&query=Or+Perel&size=50            | Neural rendering + 3DGS inverse rendering, relighting/editing/object insertion (lead author 2606.11314 TRON)
 
 ---
 
