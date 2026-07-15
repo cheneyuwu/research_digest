@@ -20,6 +20,9 @@ Neural Radiance Field + Driving       | neural radiance field driving simulation
 Video Generation + Driving            | video generation driving world model            | abs
 Occupancy Prediction + Driving        | occupancy prediction autonomous driving         | abs
 Diffusion Models + Simulation         | diffusion model autonomous driving simulation   | abs
+Video Gen + Depth/3D (upstream)       | video generation depth estimation 3D reconstruction | abs
+Diffusion + Vision Foundation (upstream) | diffusion vision foundation model depth geometry | abs
+Generative Model + Sensor/Perception  | generative model sensor perception simulation    | abs
 
 ---
 
@@ -101,6 +104,8 @@ End-to-end-AD (OpenDriveLab)        | https://github.com/OpenDriveLab/End-to-end
 CVPR2026-Papers-with-Code (amusi)   | https://github.com/amusi/CVPR2026-Papers-with-Code                        | CVPR 2026 papers tracker
 Awesome-3D-Gaussian-Splatting       | https://github.com/MrNeRF/awesome-3D-gaussian-splatting                   | 3DGS methods and applications
 Awesome-NeRF                        | https://github.com/awesome-NeRF/awesome-NeRF                              | NeRF papers and applications
+Awesome-Gaussians (longxiang-ai)    | https://github.com/longxiang-ai/awesome-gaussians                         | Daily automated arXiv updates for 3DGS papers (more current than MrNeRF list, which suspended manual curation June 2026)
+Awesome-World-Models (NeuraLiying)  | https://github.com/NeuraLiying/Awesome-World-Models                       | 340+ curated papers: video gen, AV, robotics, 3D/4D, physics sim (last updated May 2026)
 
 ---
 
@@ -192,6 +197,7 @@ Yuzhou Huang        | (Chinese univ/industry — verify) | NONE                 
 Naama Pearl         | Tübingen (Geiger group) / Meta | NONE                                                 | https://arxiv.org/search/?searchtype=author&query=Naama+Pearl&size=50         | Learned 3DGS optimization, meta-learning for scene reconstruction (lead author 2605.15760 Learn2Splat)
 Andrea Bajcsy       | CMU (Robotics Institute)     | NONE                                                   | https://arxiv.org/search/?searchtype=author&query=Andrea+Bajcsy&size=50       | Robust policy evaluation, steering video world models toward plausible failures, safe autonomy (senior author 2606.00267 StressDream)
 Or Perel            | NVIDIA / U. Toronto / Vector | NONE                                                   | https://arxiv.org/search/?searchtype=author&query=Or+Perel&size=50            | Neural rendering + 3DGS inverse rendering, relighting/editing/object insertion (lead author 2606.11314 TRON)
+Kaiming He          | MIT / Meta (prev.)           | https://scholar.google.com/citations?user=DhtAFkwAAAAJ | https://arxiv.org/search/?searchtype=author&query=Kaiming+He&size=50          | Vision foundation models, video generation as pretraining for depth/3D/segmentation (GenCeption 2607.09024) — upstream advances feed sensor-sim pipelines
 
 ---
 
